@@ -17,15 +17,15 @@ function(err, db){
     // Verificando si hubno error
     // en la conexion
     if(err){
-        consola.log("> Error al conectarse a: "+
+        console.log("> Error al conectarse a: "+
         'mongodb://127.0.0.1:27017/learnyoumongo');
         throw err;
 
     }
 // Obteniendo la coleccion
-   var parrotsCollecyion = db.collection('porrots');
+   var parrotsCollection = db.collection('parrots');
    // Aplicando un query sobre la coleccion
- var objevtoResultado =  parrotsCollection.find({
+ var objectoResultado =  parrotsCollection.find({
            age : {$gt : ageArgument}
        }); 
        //
