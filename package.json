@@ -1,0 +1,27 @@
+{
+  "name": "lym",
+  "version": "0.0.0",
+  "description": "Path de aprendizaje del uso del driver de MongoDB ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jannethvelazquez/lym.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "driver",
+    "node"
+  ],
+  "author": "janneth.paez03@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jannethvelazquez/lym/issues"
+  },
+  "homepage": "https://github.com/jannethvelazquez/lym#readme",
+  "dependencies": {
+    "mongodb": "^2.2.4"
+  }
+}
